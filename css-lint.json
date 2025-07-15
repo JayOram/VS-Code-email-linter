@@ -1,0 +1,7 @@
+  {
+    "css.lint.validProperties": [
+    "mso-hide",
+    "mso-table-lspace",
+    "mso-table-rspace"
+  ]
+  }
