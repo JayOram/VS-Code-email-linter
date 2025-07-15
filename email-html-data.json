@@ -1,0 +1,83 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "v:*",
+      "description": "Vector Markup Language elements for Outlook",
+      "void": false
+    },
+    {
+      "name": "o:*", 
+      "description": "Office namespace elements",
+      "void": false
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "mso-*",
+      "description": "Microsoft Office specific attributes"
+    },
+    {
+      "name": "cellpadding",
+      "description": "Table cell padding (deprecated in HTML5 but required for email)"
+    },
+    {
+      "name": "cellspacing",
+      "description": "Table cell spacing (deprecated in HTML5 but required for email)"
+    },
+    {
+      "name": "border",
+      "description": "Border attribute for tables"
+    },
+    {
+      "name": "align",
+      "description": "Alignment attribute (deprecated in HTML5 but required for email)"
+    },
+    {
+      "name": "valign",
+      "description": "Vertical alignment attribute (deprecated in HTML5 but required for email)"
+    },
+    {
+      "name": "bgcolor",
+      "description": "Background color attribute (deprecated in HTML5 but required for email)"
+    }
+  ],
+  "htmlCommentPatterns": [
+    {
+      "pattern": "<!--\\[if !mso\\]><!-->",
+      "description": "MSO conditional comment - hide from Outlook"
+    },
+    {
+      "pattern": "<!--<!\\[endif\\]-->",
+      "description": "MSO conditional comment - end hide from Outlook"
+    },
+    {
+      "pattern": "<!--\\[if mso\\]>",
+      "description": "MSO conditional comment - show only in Outlook"
+    },
+    {
+      "pattern": "<!--<!\\[endif\\]-->",
+      "description": "MSO conditional comment - end show only in Outlook"
+    },
+    {
+      "pattern": "<!--\\[if gte mso 9\\]>",
+      "description": "MSO conditional comment - Outlook 2007 and newer"
+    },
+    {
+      "pattern": "<!--\\[if gte mso 12\\]>",
+      "description": "MSO conditional comment - Outlook 2007+ (Word 2007 engine)"
+    },
+    {
+      "pattern": "<!--\\[if gte mso 15\\]>",
+      "description": "MSO conditional comment - Outlook 2013+"
+    },
+    {
+      "pattern": "<!--\\[if gte mso 16\\]>",
+      "description": "MSO conditional comment - Outlook 2016+"
+    },
+    {
+      "pattern": "<!--\\[if lt mso 9\\]>",
+      "description": "MSO conditional comment - Outlook versions before 2007"
+    }
+  ]
+}
