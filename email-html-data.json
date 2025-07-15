@@ -79,5 +79,118 @@
       "pattern": "<!--\\[if lt mso 9\\]>",
       "description": "MSO conditional comment - Outlook versions before 2007"
     }
+  ],
+  "cssProperties": [
+    {
+      "name": "mso-line-height-rule",
+      "description": "Controls line height calculation in Outlook",
+      "values": ["exactly", "at-least", "multiple"]
+    },
+    {
+      "name": "mso-table-lspace",
+      "description": "Left spacing for tables in Outlook"
+    },
+    {
+      "name": "mso-table-rspace", 
+      "description": "Right spacing for tables in Outlook"
+    },
+    {
+      "name": "mso-font-width",
+      "description": "Font width adjustment in Outlook"
+    },
+    {
+      "name": "mso-text-raise",
+      "description": "Vertical text positioning in Outlook"
+    },
+    {
+      "name": "mso-hide",
+      "description": "Hide elements in Outlook",
+      "values": ["all", "screen", "print"]
+    },
+    {
+      "name": "mso-element",
+      "description": "Define element type for Outlook",
+      "values": ["header", "footer", "footnote", "endnote"]
+    },
+    {
+      "name": "mso-style-priority",
+      "description": "Style priority in Outlook"
+    },
+    {
+      "name": "mso-style-parent",
+      "description": "Parent style in Outlook"
+    },
+    {
+      "name": "mso-padding-alt",
+      "description": "Alternative padding for Outlook"
+    },
+    {
+      "name": "mso-margin-top-alt",
+      "description": "Alternative top margin for Outlook"
+    },
+    {
+      "name": "mso-margin-bottom-alt",
+      "description": "Alternative bottom margin for Outlook"
+    },
+    {
+      "name": "mso-cellspacing",
+      "description": "Cell spacing in Outlook tables"
+    },
+    {
+      "name": "mso-table-wrap",
+      "description": "Table wrapping behavior in Outlook",
+      "values": ["around", "none", "auto"]
+    },
+    {
+      "name": "mso-table-anchor-vertical",
+      "description": "Vertical table anchoring in Outlook",
+      "values": ["top", "center", "bottom"]
+    },
+    {
+      "name": "mso-table-anchor-horizontal",
+      "description": "Horizontal table anchoring in Outlook",
+      "values": ["left", "center", "right"]
+    },
+    {
+      "name": "mso-table-left",
+      "description": "Left position for tables in Outlook"
+    },
+    {
+      "name": "mso-table-top",
+      "description": "Top position for tables in Outlook"
+    },
+    {
+      "name": "mso-width-source",
+      "description": "Width calculation source in Outlook",
+      "values": ["auto", "fixed"]
+    },
+    {
+      "name": "mso-height-source",
+      "description": "Height calculation source in Outlook",
+      "values": ["auto", "fixed"]
+    },
+    {
+      "name": "word-break",
+      "description": "Word breaking behavior (email-safe)",
+      "values": ["normal", "break-all", "keep-all"]
+    },
+    {
+      "name": "-webkit-text-size-adjust",
+      "description": "Prevent text size adjustment on mobile"
+    },
+    {
+      "name": "-ms-text-size-adjust",
+      "description": "Prevent text size adjustment on Windows Phone"
+    },
+    {
+      "name": "-webkit-font-smoothing",
+      "description": "Font smoothing on WebKit browsers",
+      "values": ["auto", "none", "antialiased", "subpixel-antialiased"]
+    },
+    {
+      "name": "-moz-osx-font-smoothing",
+      "description": "Font smoothing on Firefox macOS",
+      "values": ["auto", "inherit", "unset", "grayscale"]
+    }
   ]
 }
