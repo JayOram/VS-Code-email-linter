@@ -1,7 +1,28 @@
   {
-    "css.lint.validProperties": [
-    "mso-hide",
+   "css.lint.validProperties": [
+    "mso-line-height-rule",
     "mso-table-lspace",
-    "mso-table-rspace"
+    "mso-table-rspace",
+    "mso-font-width",
+    "mso-text-raise",
+    "mso-hide",
+    "mso-element",
+    "mso-style-priority",
+    "mso-style-parent",
+    "mso-padding-alt",
+    "mso-margin-top-alt",
+    "mso-margin-bottom-alt",
+    "mso-cellspacing",
+    "mso-table-wrap",
+    "mso-table-anchor-vertical",
+    "mso-table-anchor-horizontal",
+    "mso-table-left",
+    "mso-table-top",
+    "mso-width-source",
+    "mso-height-source",
+    "-webkit-text-size-adjust",
+    "-ms-text-size-adjust",
+    "-webkit-font-smoothing",
+    "-moz-osx-font-smoothing"
   ]
   }
