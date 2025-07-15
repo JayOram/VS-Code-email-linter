@@ -81,5 +81,9 @@ If you would like to add anything to the lists, please open a pull request or ad
 
 **Inspired by a question asked in the email geeks slack group**
 
+Original idea from:\
+[Jay Oram](https://www.linkedin.com/in/jayoram/)\
+[Caleb Moore](https://www.linkedin.com/in/calebmoore/)
+
 
 
