@@ -40,7 +40,7 @@ To add HTML attributes and elements there is a two step process.
   ]
 ```
 
-Then set up the email-html-data.json file:
+2. Then set up the email-html-data.json file:
 
 ```
 {
