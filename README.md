@@ -83,7 +83,8 @@ If you would like to add anything to the lists, please open a pull request or ad
 
 Original idea from:\
 [Jay Oram](https://www.linkedin.com/in/jayoram/)\
-[Caleb Moore](https://www.linkedin.com/in/calebmoore/)
+[Caleb Moore](https://www.linkedin.com/in/calebmoore/)\
+[Norman Pribil](https://www.linkedin.com/in/normanpribil/)
 
 
 
